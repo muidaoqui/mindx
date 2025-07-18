@@ -6,15 +6,9 @@ import MovieDetail from './pages/MovieDetail';
 
 function App() {
   return (
-    <Router>
-      <div className="bg-gray-950 min-h-screen text-white">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/movie/:id" element={<MovieDetail />} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      
+    </div>
   );
 }
 
